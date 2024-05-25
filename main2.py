@@ -1,6 +1,6 @@
 import telebot
 
-botTimeWeb = telebot.TeleBot('6472706302:AAHIGwDHNt6GbyoE5cXKDgQy5kAyH5S0RZc')
+botTimeWeb = telebot.TeleBot('YOUR TOKEN HERE TIMAA')
 
 from telebot import types
 @botTimeWeb.message_handler(commands=['start'])
