@@ -15,7 +15,7 @@ def startBot(message):
   def response(function_call):
       if function_call.message:
           if function_call.data == "yes":
-              second_mess = "Мы магазин одежды, наши основатели крутые гайсы!"
+              second_mess = "YOUR MESSAGE FOR USER HERE"
               markup = types.InlineKeyboardMarkup()
               markup.add(types.InlineKeyboardButton("Перейти на сайт", url="https://web.telegram.org/a/#-995440557"))
               botTimeWeb.send_message(function_call.message.chat.id, second_mess, reply_markup=markup)
